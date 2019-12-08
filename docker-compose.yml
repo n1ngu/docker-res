@@ -1,0 +1,8 @@
+version: '3'
+services:
+  res:
+    build:
+      context: .
+    image: n1ngu/res
+    ports:
+      - 1234
